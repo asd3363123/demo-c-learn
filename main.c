@@ -2,6 +2,8 @@
 #include "main.h"
 #include "mypoint.h"
 #include "mystruct.h"
+#include "mytypedef.h"
+#include "myunion.h"
 
 int main() {
 //    simple();
@@ -12,7 +14,9 @@ int main() {
 
 //    test_point();
 //    point_test();
-    test_struct();
+//    test_struct();
+    test_my_typedef();
+    test_my_union();
 }
 
 
